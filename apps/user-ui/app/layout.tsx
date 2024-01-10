@@ -1,4 +1,9 @@
 import '../styles/global.css';
+import {Inter as FontSans} from 'next/font/google';
+
+const fontSans = FontSans({
+  subsets: ['latin'],
+});
 
 export const metadata = {
   title: 'Welcome to user-ui',
@@ -12,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={fontSans.className}>{children}</body>
     </html>
   );
 }

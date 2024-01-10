@@ -1,5 +1,10 @@
-import { Uikit } from "@ukmersid/uikit";
+import { Button } from "@ukmersid/uikit";
 
 export default async function Index() {
- return <Uikit/>;
+    return (
+    <div>
+    <Button>Primary</Button>
+    <Button>Secondary</Button>
+    </div>
+    )
 }
