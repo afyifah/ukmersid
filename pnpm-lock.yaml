@@ -22,6 +22,12 @@ dependencies:
     version: 2.6.2
 
 devDependencies:
+  '@babel/core':
+    specifier: ^7.14.5
+    version: 7.23.7
+  '@babel/preset-react':
+    specifier: ^7.14.5
+    version: 7.23.3(@babel/core@7.23.7)
   '@nx/devkit':
     specifier: 17.2.8
     version: 17.2.8(nx@17.2.8)
@@ -107,6 +113,9 @@ devDependencies:
     specifier: ^29.4.1
     version: 29.7.0(@types/node@18.16.9)(ts-node@10.9.1)
   jest-environment-jsdom:
+    specifier: ^29.4.1
+    version: 29.7.0
+  jest-environment-node:
     specifier: ^29.4.1
     version: 29.7.0
   nx:

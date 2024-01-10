@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ukmersid/prisma": ["libs/prisma/src/index.ts"],
+      "@ukmersid/uikit": ["libs/uikit/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
