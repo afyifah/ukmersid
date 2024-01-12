@@ -23,4 +23,9 @@ export async function createTicket(formData : FormData) {
     });
     console.log(createNewTicket);
     revalidatePath('/dashboard ');
+
+    return {
+        message:'Ticket created Successfully',
+        status:'success ',
+    };
 }
